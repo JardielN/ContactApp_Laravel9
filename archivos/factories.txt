@@ -1,0 +1,4 @@
+la manera para crear contactos usando Model Factories es 
+ Contact::factory()->create().
+ Para crear varios 
+ Contact::factory()->count(5)->create()
